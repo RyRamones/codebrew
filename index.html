@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ryan Dave - Frontend Developer Portfolio showcasing web design, app development and IT projects">
+  <title>Ryan Dave | Frontend Developer</title>
+  <link rel="stylesheet" href="index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" href="image/log.png" type="image/icon type">
+  <!-- Add Font Awesome for more icon options -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header with improved navigation -->
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="image/log.png" alt="Ryan Dave Logo">
+      <span>Code Brew</span>
+    </a>
+    <div class="bx bx-menu" id="menu"></div>
+    <nav class="navbar">
+      <a href="#home" class="active">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section with improved layout -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text-content">
+        <span class="greeting">👋 Hello there, I'm</span>
+        <h1>Ryan <span>Dave</span></h1>
+        <h2 class="typewriter">Frontend Developer</h2>
+        <p>I build responsive, user-friendly web experiences with a focus on clean code and modern design.</p>
+        
+        <!-- <div class="home-social">
+          <a href="https://www.facebook.com/ryanramones08" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="https://www.instagram.com/ryrmnsss/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://twitter.com/ryanRamones7" target="_blank" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+          <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+          <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        </div> -->
+        
+        <div class="btn-box">
+          <a href="#portfolio" class="btn primary-btn">View My Work</a>
+          <a href="#contact" class="btn secondary-btn">Let's Connect</a>
+        </div>
+      </div>
+      
+      <div class="image">
+        <div class="image-frame">
+          <img src="image/prof.jpg" alt="Ryan Dave - Frontend Developer" class="me">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Add scroll indicator -->
+    <div class="scroll-indicator">
+      <a href="#about">
+        <span>Scroll Down</span>
+        <i class="bx bx-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section with better layout -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About <span>Me</span></h2>
+        <span class="section-divider"></span>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image">
+          <img src="image/hh.jpg">
+          <!-- <div class="experience-badge">
+            <span class="number">3+</span>
+            <span class="text">Years of Study</span>
+          </div> -->
+        </div>
+        
+        <div class="about-text">
+          <h3>Aspiring IT Professional & Frontend Developer</h3>
+          <p>
+            I'm a 21-year-old 3rd year Information Technology student at Pamantasan ng Lungsod ng Valenzuela with a passion for creating engaging digital experiences.
+          </p>
+          <p>
+            My journey in web development started with HTML and CSS, and has expanded to include Java, MySQL, C#, PHP, and design skills with Photoshop. I'm constantly learning and improving to build better websites, applications, and eventually games.
+          </p>
+          <p>
+            My goal is to bring valuable skills and fresh perspectives to the IT industry, gaining real-world experience while creating meaningful digital solutions that combine functionality with appealing design.
+          </p>
+          
+          <div class="personal-info">
+            <div class="info-item">
+              <i class="bx bx-calendar"></i>
+              <span><strong>Age:</strong> 21</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-envelope"></i>
+              <span><strong>Email:</strong> nayrramones06@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-map"></i>
+              <span><strong>Location:</strong> Valenzuela City, Philippines</span>
+            </div>
+            <div class="info-item">
+              <i class="bx bx-book"></i>
+              <span><strong>Degree:</strong> Information Technology (In Progress)</span>
+            </div>
+          </div>
+          
+          <a href="asasets/Ramones_CV.pdf" class="btn download-cv" target="_blank">Download CV <i class="bx bx-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My <span>Skills</span></h2>
+        <span class="section-divider"></span>
+      </div>
+      
+      <div class="skills-content">
+        <div class="skills-description">
+          <h3>Technologies I work with</h3>
+          <p>During my studies and projects, I've developed proficiency in various languages and tools. I'm currently expanding my skillset to stay current with industry trends.</p>
+        </div>
+        
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/html.png" alt="HTML">
+            </div>
+            <h4>HTML</h4>
+            <div class="skill-level">
+            </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/css.png" alt="CSS">
+            </div>
+            <h4>CSS</h4>
+            
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/php.png" alt="PHP">
+            </div>
+            <h4>PHP</h4>
+            <div class="skill-level">
+             
+          </div>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/java-logo.png" alt="Java">
+            </div>
+            <h4>JAVA</h4>
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/sql.png" alt="SQL">
+            </div>
+            <h4>SQL</h4>
+          </div>
+<!--           
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/csharp.png" alt="C#">
+            </div>
+            <h4>C#</h4>
+            <div class="skill-level">
+          </div>
+           </div> -->
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="image/photoshop.png" alt="Photoshop">
+            </div>
+            <h4>PHOTOSHOP</h4>
+            
+          </div>
+          
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h4>JavaScript</h4>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Education Timeline -->
+    <div class="education-section">
+      <div class="section-header">
+        <h2><span>Education</span> Journey</h2>
+        <span class="section-divider"></span>
+      </div>
+      
+      <div class="timelines">
+        <div class="timeline-items">
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+            <div class="timeline-date">2022-2026</div>
+            <div class="timeline-content">
+              <h3>Pamantasan ng Lungsod ng Valenzuela</h3>
+              <p class="timeline-degree">Bachelor of Science in Information Technology</p>
+              <p>Currently in my 3rd year, focusing on web development and software engineering principles.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-school"></i></div>
+            <div class="timeline-date">2016-2022</div>
+            <div class="timeline-content">
+              <h3>Valenzuela National High School</h3>
+              <p class="timeline-degree">ABM Strand (Senior High)</p>
+              <p>Graduated with honors after completing 4 years of junior high and 2 years of senior high in the ABM strand.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-book"></i></div>
+            <div class="timeline-date">2010-2016</div>
+            <div class="timeline-content">
+              <h3>Marulas Central School</h3>
+              <p class="timeline-degree">Elementary Education</p>
+              <p>Completed 6 years of foundational education, developing core academic skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2>My <span>Projects</span></h2>
+        <span class="section-divider"></span>
+        <p>Explore my latest work across different areas of development</p>
+      </div>
+      
+      <!-- <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Website Design</button>
+        <button class="filter-btn" data-filter="app">App Design</button>
+        <button class="filter-btn" data-filter="system">System</button>
+      </div> -->
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item web">
+          <div class="portfolio-img">
+            <img src="asasets/greensque.png" alt="Website Design Project">
+          </div>
+          <div class="portfolio-info">
+            <h3>GREENSQUE E-commerse Shop</h3>
+            <p>A user-friendly online shop designed for plant lovers, featuring a clean and calming UI with easy navigation, organized categories, 
+              and visually appealing plant displays. </p>
+            <div class="portfolio-tech">
+              <span>Figma</span>
+             
+            </div>
+            <!-- <div class="portfolio-links">
+              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Live</a>
+              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="portfolio-item app">
+          <div class="portfolio-img">
+            <img src="image/appdesign.png" alt="App Design Project">
+          </div>
+          <div class="portfolio-info">
+            <h3>Task Manager App</h3>
+            <p>Mobile application to organize and track daily tasks and projects.</p>
+            <div class="portfolio-tech">
+              <span>Java</span>
+              <span>XML</span>
+              <span>Firebase</span>
+            </div>
+            <!-- <div class="portfolio-links">
+              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Demo</a>
+              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
+            </div> -->
+          </div>
+        </div>
+        
+        <div class="portfolio-item system">
+          <div class="portfolio-img">
+            <img src="image/system.png" alt="System Project">
+          </div>
+          <div class="portfolio-info">
+            <h3>Teacher Management System</h3>
+            <p>A software solution designed to manage teacher records, including profiles,schedules, and performance data.</p>
+            <div class="portfolio-tech">
+              <span>Java</span>
+              
+            </div>
+            <!-- <div class="portfolio-links">
+              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Demo</a>
+              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
+            </div> -->
+          </div>
+        </div>
+        
+        <!-- Add more project items as needed -->
+        <div class="portfolio-item web">
+          <div class="portfolio-img">
+            <img src="asasets/myportfolio.png" alt="Portfolio Website">
+          </div>
+          <div class="portfolio-info">
+            <h3>Personal Portfolio</h3>
+            <p>Responsive personal website to showcase skills and projects.</p>
+            <div class="portfolio-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <!-- <div class="portfolio-links">
+              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Live</a>
+              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      
+      <!-- View More Projects Button -->
+      <div class="view-more">
+        <a href="#" class="btn">View More Projects <i class="bx bx-right-arrow-alt"></i></a>
+      </div>
+    </div>
+    
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal"><i class="bx bx-x"></i></span>
+        <div id="modal-content"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In <span>Touch</span></h2>
+        <span class="section-divider"></span>
+        <p>Let's discuss your project or collaboration opportunities</p>
+      </div>
+      
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Let's Build Something Together</h3>
+          <p>If you have any questions, project ideas, or would like to work together, feel free to reach out. I'm always open to new opportunities and challenges.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="bx bx-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>nayrramones06@gmail.com</p>
+              </div>
+            </div>
+            
+            <!-- <div class="contact-item">
+              <i class="bx bx-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+63 967 970 9598</p>
+              </div>
+            </div> -->
+            
+            <div class="contact-item">
+              <i class="bx bx-map"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Valenzuela City, Philippines</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://www.facebook.com/ryanramones08" target="_blank" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com/ryrmnsss/" target="_blank" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="https://twitter.com/ryanRamones7" target="_blank" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <h3>Send a Message</h3>
+            
+            <div class="form-group">
+              <div class="input-box">
+                <input type="text" name="name" id="name" required>
+                <label for="name">Full Name</label>
+                <i class="bx bx-user"></i>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="input-box">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email Address</label>
+                <i class="bx bx-envelope"></i>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="input-box">
+                <input type="text" name="subject" id="subject" required>
+                <label for="subject">Subject</label>
+                <i class="bx bx-chat"></i>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="input-box textarea">
+                <textarea name="message" id="message" required></textarea>
+                <label for="message">Your Message</label>
+                <i class="bx bx-message-detail"></i>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn submit-btn">
+              Send Message <i class="bx bx-send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#home">
+              <img src="image/log.png" alt="Ryan Dave Logo">
+              <span>Code Brew</span>
+            </a>
+            <p>Creating digital experiences with code and creativity.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-social">
+            <h3>Connect With Me</h3>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/ryanramones08" target="_blank" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a>
+              <a href="https://www.instagram.com/ryrmnsss/" target="_blank" aria-label="Instagram"><i class="bx bxl-instagram-alt"></i></a>
+              <a href="https://twitter.com/ryanRamones7" target="_blank" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+              <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Ryan Dave C. Ramones. All Rights Reserved.</p>
+      </div>
+    </div>
+    
+    <!-- Scroll to top button -->
+    <a href="#home" class="scroll-top">
+      <i class="bx bx-chevron-up"></i>
+    </a>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
