@@ -11,8 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="icon" href="asasets/codebrew.png" type="image/icon type">
-  <!-- Add Font Awesome for more icon options -->
+  <link rel="icon" href="assets/codebrew.png" type="image/icon type">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
@@ -20,15 +19,15 @@
   <!-- Header with improved navigation -->
   <header class="header">
     <a href="#home" class="logo">
-      <img src="asasets/codebrew.png" alt="Ryan Dave Logo">
+      <img src="assets/codebrew.png" alt="Ryan Dave Logo">
       <span>Code Brew</span>
     </a>
-    <div class="bx bx-menu" id="menu"></div>
+    <i class="fa-solid fa-bars" id="menu"></i>
     <nav class="navbar">
       <a href="#home" class="active">HOME</a>
       <a href="#about">ABOUT</a>
-      <a href="#skills">SKILLS</a>
-      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#skills">INTERNSHIP</a>
+      <a href="#portfolio">WORKS</a>
       <a href="#contact">CONTACT</a>
     </nav>
   </header>
@@ -36,19 +35,12 @@
   <!-- Hero Section with improved layout -->
   <section class="home" id="home">
     <div class="home-content">
-      <div class="text-content">
+      <!-- Added scroll-reveal-left class to text content -->
+      <div class="text-content scroll-reveal-left">
         <span class="greeting">👋 Hello there, I'm</span>
         <h1>Ryan <span>Dave</span></h1>
-        <h2 class="typewriter">Technical Support</h2>
-        <p>I provide reliable technical support, troubleshooting issues efficiently and ensuring smooth, optimized system performance with a focus on clear communication and user satisfaction.</p>
-        
-        <!-- <div class="home-social">
-          <a href="https://www.facebook.com/ryanramones08" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook-circle'></i></a>
-          <a href="https://www.instagram.com/ryrmnsss/" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
-          <a href="https://twitter.com/ryanRamones7" target="_blank" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
-          <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
-          <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
-        </div> -->
+        <h2 class="typewriter">Frontend Developer</h2>
+        <p>I build responsive, user-friendly web experiences with a focus on clean code and modern design.</p>
         
         <div class="btn-box">
           <a href="#portfolio" class="btn primary-btn">View My Work</a>
@@ -56,15 +48,16 @@
         </div>
       </div>
       
-      <div class="image">
+      <!-- Added scroll-reveal-right class to image -->
+      <div class="image scroll-reveal-right">
         <div class="image-frame">
           <img src="image/prof.jpg" alt="Ryan Dave - Frontend Developer" class="me">
         </div>
       </div>
     </div>
     
-    <!-- Add scroll indicator -->
-    <div class="scroll-indicator">
+    <!-- Added scroll-reveal class to scroll indicator -->
+    <div class="scroll-indicator scroll-reveal">
       <a href="#about">
         <span>Scroll Down</span>
         <i class="bx bx-chevron-down"></i>
@@ -75,27 +68,28 @@
   <!-- About Section with better layout -->
   <section class="about" id="about">
     <div class="container">
-      <div class="section-header">
+      <!-- Added scroll-reveal-scale class to section header -->
+      <div class="section-header scroll-reveal-scale">
         <h2>About <span>Me</span></h2>
         <span class="section-divider"></span>
       </div>
       
-      <div class="about-content">
+      <!-- Added scroll-reveal class to about-content -->
+      <div class="about-content scroll-reveal">
         <div class="about-image">
-          <img src="asasets/me.jpg">
-          <!-- <div class="experience-badge">
-            <span class="number">3+</span>
-            <span class="text">Years of Study</span>
-          </div> -->
+          <img src="image/hh.jpg">
         </div>
         
         <div class="about-text">
           <h3>Aspiring IT Professional & Frontend Developer</h3>
           <p>
-            I'm a 21-year-old 3rd year Information Technology student at Pamantasan ng Lungsod ng Valenzuela with a passion for creating engaging digital experiences.
+            I'm a 22-year-old 4th year Information Technology student at Pamantasan ng Lungsod ng Valenzuela with a passion for creating engaging digital experiences.
           </p>
           <p>
-            My journey in web development started with HTML and CSS, and has expanded to include Java, MySQL, C#, PHP, and design skills with Photoshop. I'm constantly learning and improving to build better websites, applications, and eventually games.
+            My journey in web development started with HTML and CSS, and has expanded to include Java, MySQL, PHP, and design skills with Photoshop. I'm constantly learning and improving to build better websites, applications, and eventually games.
+          </p>
+          <p>
+            Alongside development, I have hands-on experience in technical support—handling system troubleshooting, software installation, PC setup, and network configuration to ensure smooth and efficient IT operations.
           </p>
           <p>
             My goal is to bring valuable skills and fresh perspectives to the IT industry, gaining real-world experience while creating meaningful digital solutions that combine functionality with appealing design.
@@ -120,132 +114,57 @@
             </div>
           </div>
           
-          <a href="asasets/Ramones_CV.pdf" class="btn download-cv" target="_blank">Download CV <i class="bx bx-download"></i></a>
+          <a href="assets/Ramones_CV.pdf" class="btn download-cv" target="_blank">Download CV <i class="bx bx-download"></i></a>
         </div>
       </div>
     </div>
   </section>
-  
-  <!-- Skills Section -->
-  <section class="skills" id="skills">
-    <div class="container">
-      <div class="section-header">
-        <h2>My <span>Skills</span></h2>
-        <span class="section-divider"></span>
-      </div>
-      
-      <div class="skills-content">
-        <div class="skills-description">
-          <h3>Technologies I work with</h3>
-          <p>During my studies and projects, I've developed proficiency in various languages and tools. I'm currently expanding my skillset to stay current with industry trends.</p>
-        </div>
-        
-        <div class="skills-grid">
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/html.png" alt="HTML">
-            </div>
-            <h4>HTML</h4>
-            <div class="skill-level">
-            </div>
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/css.png" alt="CSS">
-            </div>
-            <h4>CSS</h4>
-            
-          </div>
 
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/php.png" alt="PHP">
-            </div>
-            <h4>PHP</h4>
-            <div class="skill-level">
-             
-          </div>
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/java-logo.png" alt="Java">
-            </div>
-            <h4>JAVA</h4>
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/sql.png" alt="SQL">
-            </div>
-            <h4>SQL</h4>
-          </div>
-<!--           
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/csharp.png" alt="C#">
-            </div>
-            <h4>C#</h4>
-            <div class="skill-level">
-          </div>
-           </div> -->
-          
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="image/photoshop.png" alt="Photoshop">
-            </div>
-            <h4>PHOTOSHOP</h4>
-            
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-icon">
-              <i class="fab fa-js-square"></i>
-            </div>
-            <h4>JavaScript</h4>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Education Timeline -->
-    <div class="education-section">
-      <div class="section-header">
-        <h2><span>Education</span> Journey</h2>
+  <!-- Internship Section -->
+  <section class="internship" id="skills">
+    <div class="container">
+      <!-- Added scroll-reveal-scale class to section header -->
+      <div class="section-header scroll-reveal-scale">
+        <h2>Internship <span>Information</span></h2>
         <span class="section-divider"></span>
       </div>
       
-      <div class="timelines">
-        <div class="timeline-items">
-          <div class="timeline-item">
-            <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
-            <div class="timeline-date">2022-2026</div>
-            <div class="timeline-content">
-              <h3>Pamantasan ng Lungsod ng Valenzuela</h3>
-              <p class="timeline-degree">Bachelor of Science in Information Technology</p>
-              <p>Currently in my 3rd year, focusing on web development and software engineering principles.</p>
-            </div>
+      <div class="internship-content">
+        <!-- Added scroll-reveal-left class to first card -->
+        <div class="internship-card company-info scroll-reveal-left">
+          <h3>Company Information</h3>
+          <div class="info-divider"></div>
+          <div class="info-group">
+            <p><strong>Name:</strong> MBA Consulting Philippines: Debt Collection Company</p>
           </div>
-          
-          <div class="timeline-item">
-            <div class="timeline-dot"><i class="fas fa-school"></i></div>
-            <div class="timeline-date">2016-2022</div>
-            <div class="timeline-content">
-              <h3>Valenzuela National High School</h3>
-              <p class="timeline-degree">ABM Strand (Senior High)</p>
-              <p>Graduated with honors after completing 4 years of junior high and 2 years of senior high in the ABM strand.</p>
-            </div>
+          <div class="info-group">
+            <p><strong>Location:</strong> J&F Divino Building Aurora Boulevard Quezon City, Philippines.</p>
           </div>
-          
-          <div class="timeline-item">
-            <div class="timeline-dot"><i class="fas fa-book"></i></div>
-            <div class="timeline-date">2010-2016</div>
-            <div class="timeline-content">
-              <h3>Marulas Central School</h3>
-              <p class="timeline-degree">Elementary Education</p>
-              <p>Completed 6 years of foundational education, developing core academic skills.</p>
+          <div class="info-group">
+            <p><strong>Contact:</strong> info@ph.mbacgroup.com</p>
+          </div>
+        </div>
+
+        <!-- Added scroll-reveal-right class to second card -->
+        <div class="internship-card tasks-info scroll-reveal-right">
+          <h3>Assigned Tasks</h3>
+          <div class="info-divider"></div>
+          <div class="task-list">
+            <div class="task-item">
+              <i class='bx bx-check-circle'></i>
+              <span>Basic Troubleshooting</span>
+            </div>
+            <div class="task-item">
+              <i class='bx bx-check-circle'></i>
+              <span>User Monitoring</span>
+            </div>
+            <div class="task-item">
+              <i class='bx bx-check-circle'></i>
+              <span>Hourly Report</span>
+            </div>
+            <div class="task-item">
+              <i class='bx bx-check-circle'></i>
+              <span>Cable Management</span>
             </div>
           </div>
         </div>
@@ -256,104 +175,180 @@
   <!-- Portfolio Section -->
   <section class="portfolio" id="portfolio">
     <div class="container">
-      <div class="section-header">
-        <h2>My <span>Projects</span></h2>
+      <!-- Added scroll-reveal-scale class to section header -->
+      <div class="section-header scroll-reveal-scale">
+        <h2>Sample<span>Works</span></h2>
         <span class="section-divider"></span>
         <p>Explore my latest work across different areas of development</p>
       </div>
       
-      <!-- <div class="portfolio-filters">
+      <div class="portfolio-filters">
         <button class="filter-btn active" data-filter="all">All Projects</button>
-        <button class="filter-btn" data-filter="web">Website Design</button>
-        <button class="filter-btn" data-filter="app">App Design</button>
-        <button class="filter-btn" data-filter="system">System</button>
-      </div> -->
+        <button class="filter-btn" data-filter="ts">Troubleshooting</button>
+        <button class="filter-btn" data-filter="um">User Monitoring</button>
+        <button class="filter-btn" data-filter="gw">Gateway</button>
+        <button class="filter-btn" data-filter="cm">Cable Management</button>
+        <button class="filter-btn" data-filter="hr">Hourly Report</button>
+      </div>
 
-      <div class="portfolio-grid">
-        <div class="portfolio-item web">
+      <!-- Added scroll-reveal-stagger class to portfolio grid -->
+      <div class="portfolio-grid scroll-reveal-stagger">
+        <div class="portfolio-item ts">
           <div class="portfolio-img">
-            <img src="asasets/greensque.png" alt="Website Design Project">
+            <img src="assets/ojt/ts1.jpg" alt="ts">
           </div>
           <div class="portfolio-info">
-            <h3>GREENSQUE E-commerse Shop</h3>
-            <p>A user-friendly online shop designed for plant lovers, featuring a clean and calming UI with easy navigation, organized categories, 
-              and visually appealing plant displays. </p>
-            <div class="portfolio-tech">
-              <span>Figma</span>
-             
-            </div>
-            <!-- <div class="portfolio-links">
-              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Live</a>
-              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
-            </div> -->
+            <h3>Troubleshooting</h3>
+            <p>Internet Troubleshooting </p>
+          </div>
+        </div>
+
+        <div class="portfolio-item cm">
+          <div class="portfolio-img">
+            <img src="assets/ojt/cl1.jpg" alt="cm">
+          </div>
+          <div class="portfolio-info">
+            <h3>Cable Management</h3>
+            <p>Organizes and labels Ethernet cables for server systems to ensure efficient network management and maintenance.</p>
           </div>
         </div>
         
-        <div class="portfolio-item app">
+        <div class="portfolio-item cm">
           <div class="portfolio-img">
-            <img src="image/appdesign.png" alt="App Design Project">
+            <img src="assets/ojt/cl2.jpg" alt="cm">
           </div>
           <div class="portfolio-info">
-            <h3>Task Manager App</h3>
-            <p>Mobile application to organize and track daily tasks and projects.</p>
-            <div class="portfolio-tech">
-              <span>Java</span>
-              <span>XML</span>
-              <span>Firebase</span>
-            </div>
-            <!-- <div class="portfolio-links">
-              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Demo</a>
-              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
-            </div> -->
+            <h3>Cable Management</h3>
+            <p>Organizes and labels Ethernet cables for server systems to ensure efficient network management and maintenance.</p>
           </div>
         </div>
         
-        <div class="portfolio-item system">
+        <div class="portfolio-item gw">
           <div class="portfolio-img">
-            <img src="image/system.png" alt="System Project">
+            <img src="assets/ojt/gw1.jpg" alt="gw">
           </div>
           <div class="portfolio-info">
-            <h3>Teacher Management System</h3>
-            <p>A software solution designed to manage teacher records, including profiles,schedules, and performance data.</p>
-            <div class="portfolio-tech">
-              <span>Java</span>
-              
-            </div>
-            <!-- <div class="portfolio-links">
-              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Demo</a>
-              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
-            </div> -->
+            <h3>Gateway Update</h3>
+            <p>Encoding all the SimCard</p>
           </div>
         </div>
-        
-        <!-- Add more project items as needed -->
-        <div class="portfolio-item web">
+
+        <div class="portfolio-item gw">
           <div class="portfolio-img">
-            <img src="asasets/myportfolio.png" alt="Portfolio Website">
+            <img src="assets/ojt/gw2.jpg" alt="gw">
           </div>
           <div class="portfolio-info">
-            <h3>Personal Portfolio</h3>
-            <p>Responsive personal website to showcase skills and projects.</p>
-            <div class="portfolio-tech">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-            <!-- <div class="portfolio-links">
-              <a href="#" class="view-project"><i class="bx bx-link-external"></i> View Live</a>
-              <a href="#" class="view-code"><i class="bx bx-code-alt"></i> Source Code</a>
-            </div> -->
+            <h3>Gateway Update</h3>
+            <p>Updating Gateway for new simcards</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item gw">
+          <div class="portfolio-img">
+            <img src="assets/ojt/gw3.jpg" alt="gw">
+          </div>
+          <div class="portfolio-info">
+            <h3>Gateway Update</h3>
+            <p>Finding all the 3g below simcards and replace it with new simcards. </p>
+          </div>
+        </div>
+
+        <div class="portfolio-item ts">
+          <div class="portfolio-img">
+            <img src="assets/ojt/ts2.jpg" alt="gw">
+          </div>
+          <div class="portfolio-info">
+            <h3>Troubleshooting</h3>
+            <p>Installs and configures operating systems to ensure system stability and optimal performance.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item ts">
+          <div class="portfolio-img">
+            <img src="assets/ojt/ts3.jpg" alt="gw">
+          </div>
+          <div class="portfolio-info">
+            <h3>Troubleshooting</h3>
+            <p>Reformatting and sets up the operating system to improve speed and fix system errors.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item um">
+          <div class="portfolio-img">
+            <img src="assets/ojt/um1.jpg" alt="um">
+          </div>
+          <div class="portfolio-info">
+            <h3>User Monitoring</h3>
+            <p>Monitors user activities to ensure system security, compliance, and optimal resource usage.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item um">
+          <div class="portfolio-img">
+            <img src="assets/ojt/um2.jpg" alt="um">
+          </div>
+          <div class="portfolio-info">
+            <h3>User Monitoring</h3>
+            <p>Keeps track of user activity to maintain system safety and performance.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item ts">
+          <div class="portfolio-img">
+            <img src="assets/ojt/ts4.jpg" alt="ts">
+          </div>
+          <div class="portfolio-info">
+            <h3>Troubleshooting</h3>
+            <p>Performs complete PC setup and troubleshooting to ensure reliable performance and user readiness.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item ts">
+          <div class="portfolio-img">
+            <img src="assets/ojt/ts5.jpg" alt="ts">
+          </div>
+          <div class="portfolio-info">
+            <h3>Troubleshooting</h3>
+            <p>Upgrades storage drives from HDD to SSD to enhance system speed, reliability, and overall performance.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item ts">
+          <div class="portfolio-img">
+            <img src="assets/ojt/ts6.jpg" alt="ts">
+          </div>
+          <div class="portfolio-info">
+            <h3>Troubleshooting</h3>
+            <p>Manages and grants user access permissions to ensure secure and efficient system operations.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item hr">
+          <div class="portfolio-img">
+            <img src="assets/ojt/hr1.jpg" alt="hr">
+          </div>
+          <div class="portfolio-info">
+            <h3>Hourly Report</h3>
+            <p>Hourly Report for Company Partners</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item hr">
+          <div class="portfolio-img">
+            <img src="assets/ojt/hr2.jpg" alt="hr">
+          </div>
+          <div class="portfolio-info">
+            <h3>Hourly Report</h3>
+            <p>Hourly Report for Company Partners</p>
           </div>
         </div>
       </div>
       
-      <!-- View More Projects Button -->
       <div class="view-more">
-        <a href="#" class="btn">View More Projects <i class="bx bx-right-arrow-alt"></i></a>
+        <a href="#" class="btn">View More Works <i class="bx bx-right-arrow-alt"></i></a>
       </div>
     </div>
     
-    <!-- Project Modal -->
     <div id="project-modal" class="modal">
       <div class="modal-content">
         <span class="close-modal"><i class="bx bx-x"></i></span>
@@ -365,14 +360,16 @@
   <!-- Contact Section -->
   <section class="contact" id="contact">
     <div class="container">
-      <div class="section-header">
+      <!-- Added scroll-reveal-scale class to section header -->
+      <div class="section-header scroll-reveal-scale">
         <h2>Get In <span>Touch</span></h2>
         <span class="section-divider"></span>
         <p>Let's discuss your project or collaboration opportunities</p>
       </div>
       
       <div class="contact-wrapper">
-        <div class="contact-info">
+        <!-- Added scroll-reveal-left class to contact info -->
+        <div class="contact-info scroll-reveal-left">
           <h3>Let's Build Something Together</h3>
           <p>If you have any questions, project ideas, or would like to work together, feel free to reach out. I'm always open to new opportunities and challenges.</p>
           
@@ -384,14 +381,6 @@
                 <p>nayrramones06@gmail.com</p>
               </div>
             </div>
-            
-            <!-- <div class="contact-item">
-              <i class="bx bx-phone"></i>
-              <div>
-                <h4>Phone</h4>
-                <p>+63 967 970 9598</p>
-              </div>
-            </div> -->
             
             <div class="contact-item">
               <i class="bx bx-map"></i>
@@ -405,13 +394,13 @@
           <div class="social-links">
             <a href="https://www.facebook.com/ryanramones08" target="_blank" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
             <a href="https://www.instagram.com/ryrmnsss/" target="_blank" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="https://twitter.com/ryanRamones7" target="_blank" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
             <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
             <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
           </div>
         </div>
         
-        <div class="contact-form-container">
+        <!-- Added scroll-reveal-right class to contact form -->
+        <div class="contact-form-container scroll-reveal-right">
           <form class="contact-form">
             <h3>Send a Message</h3>
             
@@ -463,7 +452,7 @@
         <div class="footer-content">
           <div class="footer-logo">
             <a href="#home">
-              <img src="asasets/codebrew.png" alt="Ryan Dave Logo">
+              <img src="assets/codebrew.png" alt="Ryan Dave Logo">
               <span>Code Brew</span>
             </a>
             <p>Creating digital experiences with code and creativity.</p>
@@ -485,9 +474,8 @@
             <div class="social-icons">
               <a href="https://www.facebook.com/ryanramones08" target="_blank" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a>
               <a href="https://www.instagram.com/ryrmnsss/" target="_blank" aria-label="Instagram"><i class="bx bxl-instagram-alt"></i></a>
-              <a href="https://twitter.com/ryanRamones7" target="_blank" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
-              <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/RyRamones" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+              <a href="https://www.linkedin.com/in/ryan-dave-ramones-38761735b/" target="_blank" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -500,13 +488,11 @@
       </div>
     </div>
     
-    <!-- Scroll to top button -->
     <a href="#home" class="scroll-top">
       <i class="bx bx-chevron-up"></i>
     </a>
   </footer>
 
-  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
 </html>
